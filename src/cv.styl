@@ -44,7 +44,7 @@ body
     &:before
         content ""
         setup($x,fixed,0,0,0,0,0)
-        background-color rgba(255,255,255,0.92)
+        background-color #f5f5f5
     
 .caps {text-transform: uppercase;}
 .justified {text-align: justify;}
@@ -123,9 +123,14 @@ h3 {font('Open Sans',21px,1px,600,28px); color: black}
     font('Open Sans',18px,6px,600,28px)
 
 /* Create two equal columns that floats next to each other */
-.column {
+.columnLeft {
   float: left;
-  width: 50%;
+  width: 40%;
+}
+
+.columnRight {
+  float: left;
+  width: 60%;
 }
 
 /* Clear floats after the columns */
